@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/tony_stark_new"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tony_stark_new"/>
+
+            <TextView
+                android:id="@+id/txtTonyStark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tony Stark"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="40sp"
+                android:textSize="40dp"
+                android:layout_toRightOf="@id/tony_stark_new"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtmailid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTonyStark"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@id/tony_stark_new"
+                android:text="starkindustries@gmail.com"
+                android:textColor="#439df0"
+                android:textSize="20dp" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/thor"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/thor"/>
+
+        <TextView
+            android:id="@+id/txtthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thor"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="40sp"
+            android:textSize="40dp"
+            android:layout_toRightOf="@id/thor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtmailidthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtthor"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:layout_toRightOf="@id/thor"
+            android:text="thor123@gmail.com"
+            android:textColor="#439df0"
+            android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/widow"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/widow"/>
+
+            <TextView
+                android:id="@+id/txtwidow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Widow"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="40sp"
+                android:textSize="40dp"
+                android:layout_toRightOf="@id/widow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtmailidwidow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtwidow"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@id/widow"
+                android:text="widow34123@gmail.com"
+                android:textColor="#439df0"
+                android:textSize="20dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/hulk"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/hulk"/>
+
+            <TextView
+                android:id="@+id/txthulk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hulk"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="40sp"
+                android:textSize="40dp"
+                android:layout_toRightOf="@id/hulk"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtmailidhulk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txthulk"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@id/hulk"
+                android:text="hulk123@mars.com"
+                android:textColor="#439df0"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/captain_america"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/captain_america"/>
+
+            <TextView
+                android:id="@+id/txtcaptain_america"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Captain America"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="40sp"
+                android:textSize="30dp"
+                android:layout_toRightOf="@id/captain_america"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtmailidcaptain_america"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtcaptain_america"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@id/captain_america"
+                android:text="captain_america123@mars.com"
+                android:textColor="#439df0"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/black_panther"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/black_panther"/>
+
+            <TextView
+                android:id="@+id/txtblack_panther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black Panther"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="40sp"
+                android:textSize="30dp"
+                android:layout_toRightOf="@id/black_panther"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtmailidblack_panther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtblack_panther"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@id/black_panther"
+                android:text="black_panther@gmail.com"
+                android:textColor="#439df0"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
